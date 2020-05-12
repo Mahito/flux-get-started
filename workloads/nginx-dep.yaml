@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: gcr.io/cloudtu-dev-02962067/mahito/flux/nginx:1.0.5
+        image: gcr.io/cloudtu-dev-02962067/mahito/flux/nginx:1.0.6
         imagePullPolicy: IfNotPresent
         ports:
         - name: http

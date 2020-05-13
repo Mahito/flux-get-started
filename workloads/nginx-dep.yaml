@@ -9,7 +9,6 @@ metadata:
   annotations:
     fluxcd.io/automated: "true"
     fluxcd.io/tag.nginx: semver:~1.0.0
-    fluxcd.io/ignore: true
 spec:
   selector:
     matchLabels:
